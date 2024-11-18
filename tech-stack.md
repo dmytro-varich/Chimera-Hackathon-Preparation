@@ -31,10 +31,10 @@
 
 | Technology           | Description                                           | Language | Responsible |
 |----------------------|-------------------------------------------------------|-------------|-------------|
-| **OpenCV**       | For deep learning models and neural networks          | `Python` | [Name/Team] |
-| **TensorFlow**       | For deep learning models and neural networks          | `Python` | [Name/Team] |
-| **PyTorch**          | For building and training machine learning models     | `Python` | [Name/Team] |
-| **Scikit-learn**     | For traditional machine learning algorithms           | `Python` | [Name/Team] |
+| **OpenCV**       | For deep learning models and neural networks          | `Python` | `Dmytro Varich`, |
+| **TensorFlow**       | For deep learning models and neural networks          | `Python` | `Dmytro Varich`, |
+| **PyTorch**          | For building and training machine learning models     | `Python` | `Dmytro Varich`, |
+| **Scikit-learn**     | For traditional machine learning algorithms           | `Python` | `Dmytro Varich`, |
 
 ## Web Scraping & Parsing
 
