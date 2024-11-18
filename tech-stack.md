@@ -18,6 +18,8 @@
 |----------------------|-------------------------------------------------------|-------------|-------------|
 | **Node.js with Express** | For creating server-side logic                      | `JavaScript` | [Name/Team] |
 | **Python with Flask/Django** | For building RESTful APIs and handling complex logic | `Python` | [Name/Team] |
+| **ASP.NET Core** | A cross-platform framework for building high-performance web apps | `.NET`, `C#` | [Name/Team] |
+| **FastAPI** | A modern, fast (high-performance) web framework for building APIs | `Python` | [Name/Team] |
 
 ## Databases
 
@@ -39,14 +41,14 @@
 | Technology           | Description                                           | Language | Responsible |
 |----------------------|-------------------------------------------------------|-------------|-------------|
 | **Scrapy**           | For efficient web scraping and crawling               | `Python` | Responsible |
-| **BeautifulSoup**    | For HTML parsing and extracting data from web pages   | `Python` | Responsible |
+| **BeautifulSoup**    | For HTML parsing and extracting data from web pages   | `Python` | `Dmytro Varich`, |
 | **Selenium**         | For browser automation and dynamic page scraping      | `Python` | Responsible |
 
 ## Data Science & Data Analysis
 
 | Technology           | Description                                           | Language | Responsible |
 |----------------------|-------------------------------------------------------|-------------|-------------|
-| **Pandas**           | For data manipulation and analysis                    | `Python` | [Name/Team] |
-| **NumPy**            | For numerical computing and data handling            | `Python` | [Name/Team] |
-| **Matplotlib**       | For data visualization                                | `Python` | [Name/Team] |
-| **Seaborn**          | For statistical data visualization                    | `Python` | [Name/Team] |
+| **Pandas**           | For data manipulation and analysis                    | `Python` | `Dmytro Varich`, |
+| **NumPy**            | For numerical computing and data handling            | `Python` | `Dmytro Varich`, |
+| **Matplotlib**       | For data visualization                                | `Python` | `Dmytro Varich`, |
+| **Seaborn**          | For statistical data visualization                    | `Python` | `Dmytro Varich`, |
