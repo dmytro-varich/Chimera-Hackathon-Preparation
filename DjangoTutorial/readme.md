@@ -11,3 +11,8 @@
 - `python manage.py migrate` — applies the migrations to update the database schema for you.
 
 - `python manage.py createsuperuser` — creates a superuser account, allowing you to log in as an admin.
+
+## Show Results
+![image](https://github.com/user-attachments/assets/4b049cfd-e167-4f95-9646-89692e3414b6)
+
+![image](https://github.com/user-attachments/assets/078e8f8f-c55f-4ebc-9fbe-7f1533b9c6ec)
