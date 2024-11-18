@@ -5,8 +5,8 @@
 | Technology           | Description                                           | Language | Responsible |
 |----------------------|-------------------------------------------------------|-------------|-------------|
 | **Bootstrap**            | For building responsive and interactive web interfaces | `HTML`, `CSS`, `JavaScript`  | [Name/Team] |
-| **Streamlit**            | 	For building data-driven and interactive web apps | `Python`  | `Dmytro Varich`, |
-| **Jinja**            | 	For rendering dynamic content in Python-based web apps | `Python`  | [Name/Team] |
+| **Streamlit**            | For building data-driven and interactive web apps | `Python`  | `Dmytro Varich`, |
+| **Jinja**            | For rendering dynamic content in Python-based web apps | `Python`  | [Name/Team] |
 | **React**            | For building dynamic and interactive user interfaces | `JavaScript`  | [Name/Team] |
 | **Vue.js**           | For lightweight and simple projects                  | `JavaScript` | [Name/Team] |
 | **Tailwind CSS**     | For efficient and minimalistic styling               | `CSS` | [Name/Team] |
