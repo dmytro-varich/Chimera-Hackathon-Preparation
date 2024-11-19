@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechNova</title>
     <!-- Bootstrap CSS -->
-    <link href="bootstrap_puls.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='bootstrap_puls.css') }}" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <!-- Header and Navigation -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">TechNova</a>
+                <a class="navbar-brand" href="#">Chimera</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -42,10 +42,37 @@
     <main>
         <div class="container my-5">
             <div class="text-center">
-                <h1 class="display-4">Welcome to TechNova</h1>
-                <p class="lead">Your hub for the latest in technology and innovation.</p>
+                <h1 class="display-4">Welcome to Chimera</h1>
+                <p class="lead">Your hub for the latest technology and innovation.</p>
                 <a href="#features" class="btn btn-primary btn-lg">Discover More</a>
             </div>
+        </div>
+
+        <div class="container mt-5 col-4 m-auto">
+            <h2 class="text-center">Login</h2>
+            <form method="POST">
+                {{ form.hidden_tag() }}
+                <div class="mb-3">
+                    {{ form.name.label(class="form-label") }}
+                    {{ form.name(class="form-control") }}
+                </div>
+                <div class="mb-3">
+                    {{ form.email.label(class="form-label") }}
+                    {{ form.email(class="form-control") }}
+                </div>
+                <div class="mb-3">
+                    {{ form.submit(class="btn btn-primary") }}
+                </div>
+            </form>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="mt-3">
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }}">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
         </div>
 
         <!-- Features Section -->
