@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, flash
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired
+from wtforms.validators import DataRequired, Email
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -27,7 +27,7 @@ def create_tables():
 
 class MyForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
-    email = StringField('Email', validators=[DataRequired()])
+    email = StringField('Email', validators=[DataRequired(), Email()])
     submit = SubmitField('Submit')
 
 @app.route('/', methods=['GET', 'POST'])
