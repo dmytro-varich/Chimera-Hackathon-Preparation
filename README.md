@@ -8,8 +8,7 @@
 
 [Figma](https://www.figma.com/design/cnubVCDshnbVBriQsz6WBJ/T-mobile_Hackathon_2024?t=CEaLtgpMMKNW3q78-1).
 
-## SCRUM for Hackathon
-# Scrum Stages for the Hackathon
+## Scrum Stages for the Hackathon
 
 | **Stage**                   | **Description**                                                                                   | **Expected Outcome**                                                                 |
 |-----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
