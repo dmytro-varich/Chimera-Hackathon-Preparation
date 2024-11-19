@@ -1,6 +1,6 @@
 # T-mobile-Hackathon-2024
 
-**Name Team:** .
+**Name Team:** Chimera мб?
 
 [Replit Workspace](https://replit.com/join/mafnornexg-dmytro-varich).
 
