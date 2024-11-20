@@ -30,6 +30,7 @@ def scraper(url):
     
 # print(scraper(target_url))
 
+# WHEN WE HAVE A SCROLL INFINITY
 offset_count = 0
 
 product_data = []
