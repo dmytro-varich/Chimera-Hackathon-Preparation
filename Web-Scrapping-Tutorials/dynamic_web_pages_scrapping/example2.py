@@ -12,7 +12,7 @@ def scraper(url):
         soup = BeautifulSoup(response.text, "html.parser")
         print(soup.prettify())
 
-# print(scraper(target_url))
+# print(scraper(target_url)) - !!! got html code without loaded data, only empty data
 
 # pip3 install selenium
 from selenium import webdriver
@@ -33,7 +33,7 @@ url = "https://www.scrapingcourse.com/javascript-rendering"
 driver.get(url)
 
 # print the page source
-# print(driver.page_source)
+print(driver.page_source)  # !!! - got loaded data in html code
 
 # close the browser
 driver.quit()
