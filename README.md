@@ -1,5 +1,8 @@
 # T-mobile-Hackathon-2024
 
+![chimera_logo](https://github.com/user-attachments/assets/a12f05ad-2fc6-4382-891f-d103b6df36d1)
+
+
 **Name Team:** `Chimera`.
 
 [Replit Workspace](https://replit.com/join/mafnornexg-dmytro-varich).
