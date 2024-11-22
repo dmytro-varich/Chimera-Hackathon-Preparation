@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, flash, url_for
+from flask import Flask, render_template, redirect, flash, url_for, request, jsonify
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, IntegerField, FloatField
 from wtforms.validators import DataRequired, Email, NumberRange
@@ -152,6 +152,23 @@ def delete_item(item_id):
 
     return redirect(url_for('get_items'))
 
+
+# LLM routing
+@app.route("/llm")
+def llm_page():
+    return "<a href='http://localhost:8501' target='_blank'>Open LLM Interaction</a>"
+
+
+@app.route('/process_llm', methods=['POST'])
+def process_query():
+    # Get the user input from the POST request
+    user_input = request.json.get('query')
+
+    # Process the input (replace this with your actual logic)
+    response = f"Processed query: {user_input}"
+
+    # Return the processed response
+    return jsonify({"response": response})
 
 
 
