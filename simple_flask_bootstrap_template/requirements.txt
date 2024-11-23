@@ -1,0 +1,7 @@
+numpy
+pandas
+flask
+flask-wtf
+flask-sqlalchemy
+streamlit
+streamlit_chat
