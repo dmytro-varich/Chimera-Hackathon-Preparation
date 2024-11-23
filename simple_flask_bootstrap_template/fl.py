@@ -153,10 +153,10 @@ def delete_item(item_id):
     return redirect(url_for('get_items'))
 
 
-# LLM routing
-@app.route("/llm")
-def llm_page():
-    return "<a href='http://localhost:8501' target='_blank'>Open LLM Interaction</a>"
+# # LLM routing
+# @app.route("/llm")
+# def llm_page():
+#     return "<a href='http://localhost:8501' target='_blank'>Open LLM Interaction</a>"
 
 
 @app.route('/process_llm', methods=['POST'])
